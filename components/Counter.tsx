@@ -37,7 +37,7 @@ export default function Counter({ start = 0, end = 100, duration = 2000, title }
   return (
     <>
       <div className="flex flex-col items-center">
-        <h3 className="text-[1rem] lg:text-[3.5rem]">{title}</h3>
+        <h3 className="text-[1.2rem] lg:text-[3.7rem]">{title}</h3>
         <p className="text-[2rem] lg:text-8xl" ref={elRef}>{value}+</p>
       </div>
     </>
