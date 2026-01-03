@@ -8,13 +8,13 @@
 @theme  {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --color-accent: #0a0320;
+  --color-accent: #004AAD;
   --font-lalezar: 'Lalezar', sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #1f1541;
+    --background: black;
     --foreground: #ededed;
   }
 }
